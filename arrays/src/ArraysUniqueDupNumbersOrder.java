@@ -7,6 +7,7 @@
  */
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class ArraysUniqueDupNumbersOrder {
@@ -54,8 +55,9 @@ public class ArraysUniqueDupNumbersOrder {
             }
         }
 
-        System.out.println(dup);
-        System.out.println(unique);
+        System.out.println("Given two arrays: "+Arrays.toString(array1) + " and "+Arrays.toString(array2));
+        System.out.println("Duplicates are: "+dup);
+        System.out.println("Unique elements in the order from 2 arrays: "+unique);
     }
 
 }
